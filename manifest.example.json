@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "id": "motion_A_pga_0.2",
+      "group_id": "motion_A",
+      "split": "train",
+      "input_path": "data/motion_A_input.npy",
+      "target_path": "data/motion_A_target.npy",
+      "append_path": "data/motion_A_append.npy",
+      "floors": 21
+    },
+    {
+      "id": "motion_B_pga_0.2",
+      "group_id": "motion_B",
+      "split": "val",
+      "input_path": "data/motion_B_input.npy",
+      "target_path": "data/motion_B_target.npy",
+      "append_path": "data/motion_B_append.npy",
+      "floors": 21
+    },
+    {
+      "id": "motion_C_pga_0.2",
+      "group_id": "motion_C",
+      "split": "test",
+      "input_path": "data/motion_C_input.npy",
+      "target_path": "data/motion_C_target.npy",
+      "append_path": "data/motion_C_append.npy",
+      "floors": 21
+    }
+  ]
+}
